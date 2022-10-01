@@ -1,0 +1,261 @@
+
+:root {
+
+    --primary: #386641;
+    --secondary: #9df773;
+    --grey: #3b3b3b;
+    --white: #fff;
+    --black: #1f1e1e;
+    --lightgrey: #e1e1e1;
+
+    --separation: 5rem;
+
+    --fontPpal: 'Roboto', sans-serif;
+    --fontSecond: 'Lato', sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit ;
+}
+
+body {
+    font-family: var(--fontPpal);
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+/*  Globals */
+
+.container {
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+.div-text {
+    padding: 20px;
+}
+.h2-flex {
+    color: #354f52;
+    margin: 0;
+    line-height: 1;
+}
+.p-general {
+    text-align: justify;
+}
+.sesion {
+    margin-bottom: 100px;
+}
+.sesion:last-of-type {
+    margin-bottom: 0px;
+}
+
+h1, h2, h3 {
+    font-weight: 900;
+    font-family: var(--fontSecond);
+    margin: calc( var(--separation) / 2 ) 0;
+}
+
+h1 {
+    font-size: 4.4rem;
+    margin: 20px 0px 0px 20px;
+    line-height: 1;
+}
+h2 {
+    color: #606c38;
+    font-size: 3.6rem;
+}
+h3 {
+    font-size: 2.8rem;
+}
+
+img {
+    max-width: 100%;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+}
+
+/* Utltities */
+.text-center {
+    text-align: center;
+}
+
+/* Degradados */
+.degradado-verde {
+    color: transparent;
+    background: linear-gradient(to right, var( --primary ) 0%, var( --secondary ) 100% );
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+/* Header */
+.header {
+    margin: 50px 0px;
+}
+.p-header {
+    color: #cb997e;
+    margin: 0px 0px 0px 20px;
+    padding: 0%;
+}
+
+/* Nav */
+.div-icon-menu {
+    /* background-color: #9df773; */
+    background-color: #3a5a40;
+    margin: 0px;
+    padding: 0;
+    height: 60px;
+    width: 100%;
+
+}
+.icon-menu {
+    cursor: pointer;
+    float: right;
+    font-size: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.navigation {
+    /* background-color: #9df773; */
+    background-color: #3a5a40;
+    position: fixed;
+    top: 0;
+    right: -50%;
+    min-height: 100vh;
+    width: 50vw;
+
+    transition: 0.8s;
+}
+@media (min-width: 530px) { 
+    .navigation {
+        width: 40vw;
+    }
+}
+.activate {
+    height: 100vh;
+    right: 0%;
+}
+.activate .menuUl {
+    position: fixed;
+    top: 2%;
+    right: 5%;
+}
+.navigation ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+    list-style: none;
+    margin: 10px 0px 0px 0px;
+    padding: 0px 10px;
+    height: 100vh;
+    width: 100%;
+}
+
+.navigation ul li {
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    /* margin-bottom: 10px; */
+    width: 100%;
+}
+@media (min-width: 530px) { 
+    .navigation ul li {
+        padding-left: 25px;
+    }
+}
+a {
+    padding: 0px;
+    text-decoration: none;
+    /* color: #588157; */
+    color: black;
+    font-size: 19px;
+}
+@media (min-width: 400px) { 
+    a {
+        padding: 10px;
+    }
+}
+@media (min-width: 530px) { 
+    a {
+        font-size: 21px;
+    }
+}
+
+
+/* Sesion Mision */
+.sesionMision {
+    background-color: #52796f;
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 728px) { 
+    .sesionMision {
+        flex-direction: row;
+    }
+    .sesionMision > * {
+        width: 50%;
+    }
+}
+.text-mision {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+}
+/* END Sesion Mision */
+
+/* Sesion Participants */
+.sesionParticipants {
+    padding: 0px 20px;
+}
+.sesionParticipants .text-participants h2 {
+    margin-top: 0px;
+}
+
+/* END Sesion Participants */
+
+
+/* footer */
+footer {
+    background-color: #386641;
+    margin-top: 100px;
+    padding-bottom: 10px;
+}
+footer .a-foo {
+    color: black;
+}
+.div-footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px 0px;
+}
+/* @media (min-width: 520px) { 
+    .div-footer {
+        flex-direction: row;
+        justify-content: center;
+    }
+} */
+.div-footer > * {
+    margin: 5px;
+    padding: 0px;
+}
+.div-footer a {
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+/* .copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
