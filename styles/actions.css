@@ -23,14 +23,14 @@ header h1 {
 }
 
 .imgAction {
-    margin: 20px 20px;
+    margin: 20px 0px;
     height: 300px;
     width: 100%;
 }
 
 .pad {
     text-align: justify;
-    padding: 0px 0px 0px 20px;
+    /* padding: 0px 0px 0px 20px; */
     font-size: 18px;
     font-weight: 500;
     margin-top: 0px;
@@ -39,6 +39,14 @@ header h1 {
 
 @media (min-width: 580px) { 
     .imgAction {
+        margin: 20px 20px;
+        height: 430px;
+        width: 35vw;
+    }
+}
+@media (min-width: 800px) { 
+    .imgAction {
+        margin: 20px 20px;
         height: 430px;
         width: 40vw;
     }
@@ -46,7 +54,7 @@ header h1 {
 @media (min-width: 1000px) { 
     .imgAction {
         height: 430px;
-        width: 44vw;
+        width: 40vw;
     }
 }
 
@@ -54,8 +62,8 @@ header h1 {
     margin-bottom: 40px;
 }
 
-.infoAction h3{
+/* .infoAction h3{
     padding-left: 20px;
-}
+} */
 
 

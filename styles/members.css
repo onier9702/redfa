@@ -58,6 +58,7 @@
 }
 
 .text-participants {
+    background-color: rgb(167, 244, 167);
     padding: 8px 5px 0px 20px;
     margin: 0px;
     height: 500px;
