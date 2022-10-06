@@ -1,0 +1,35 @@
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.all {
+    background-color: rgb(167, 244, 167);
+    height: 100vh;
+    width: 100%;
+}
+
+.goBack {
+    margin: 0px;
+}
+.goBack i {
+    color: #386641;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+h2 {
+    color: #386641;
+    margin: 0;
+    padding: 0;
+}
+
+.divMain {
+    padding: 20px 20px;
+}
