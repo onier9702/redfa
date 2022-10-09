@@ -101,9 +101,9 @@ h3 {
     margin: 50px 20px;
 }
 .header img {
-    height: 90px;
+    height: 65px;
     margin-right: 10px;
-    width: 100px;
+    width: 70px;
 }
 .p-header {
     color: #cb997e;
@@ -235,6 +235,11 @@ a {
     height: 300px;
 }
 /* END Sesion Mision */
+
+/* Sesion Ppios */
+.ppioH2 {
+    margin-top: 7px;
+}
 
 /* Sesion Participants */
 .sesionParticipants {
